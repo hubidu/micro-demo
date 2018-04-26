@@ -22,6 +22,7 @@ https://github.com/amio/awesome-micro
     * Just compose functions instead of proprietary middleware hooks
 - Lightweight (claims to be, but IMHO also feels more lightweight compared to express)
 - No callbacks (like in express middleware)
+- More explicit, less magic
 - "Poor man's lambda functions"
 - Interesting idea: Use the file system as router https://github.com/jesseditson/fs-router
 
