@@ -1,0 +1,16 @@
+{
+  "name": "routing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "start": "micro"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.0",
+    "micro-route": "^2.5.0"
+  }
+}

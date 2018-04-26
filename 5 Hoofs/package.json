@@ -1,0 +1,25 @@
+{
+  "name": "routing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test ava --verbose",
+    "test:watch": "cross-env NODE_ENV=test ava --verbose --watch",
+    "start": "micro"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jsome": "^2.5.0",
+    "micro": "^9.3.0",
+    "micro-compose": "0.0.3",
+    "micro-health-api": "^1.0.4",
+    "micro-route": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "test-listen": "^1.1.0"
+  }
+}

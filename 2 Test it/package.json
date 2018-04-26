@@ -1,0 +1,22 @@
+{
+  "name": "micro-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "test:watch": "ava --verbose --watch",
+    "start": "micro"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "test-listen": "^1.1.0"
+  }
+}
